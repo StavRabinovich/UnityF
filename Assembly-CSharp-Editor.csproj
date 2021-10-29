@@ -11,7 +11,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{83DF1FCA-8EC1-F467-614C-52797FBDD675}</ProjectGuid>
+    <ProjectGuid>{598B8D33-194D-5CB9-2D73-B3B60EBABA63}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp-Editor</AssemblyName>
@@ -282,19 +282,19 @@
  <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.13f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Plastic.Antlr3.Runtime">
- <HintPath>C:/Users/stavr/Downloads/UnityProject1/Unity Project1/Library/PackageCache/com.unity.collab-proxy@1.5.7/Lib/Editor/PlasticSCM/Unity.Plastic.Antlr3.Runtime.dll</HintPath>
+ <HintPath>C:/Users/stavr/Downloads/UnityProject1/Unity Project1/UnityF/Library/PackageCache/com.unity.collab-proxy@1.5.7/Lib/Editor/PlasticSCM/Unity.Plastic.Antlr3.Runtime.dll</HintPath>
  </Reference>
  <Reference Include="log4netPlastic">
- <HintPath>C:/Users/stavr/Downloads/UnityProject1/Unity Project1/Library/PackageCache/com.unity.collab-proxy@1.5.7/Lib/Editor/PlasticSCM/log4netPlastic.dll</HintPath>
+ <HintPath>C:/Users/stavr/Downloads/UnityProject1/Unity Project1/UnityF/Library/PackageCache/com.unity.collab-proxy@1.5.7/Lib/Editor/PlasticSCM/log4netPlastic.dll</HintPath>
  </Reference>
  <Reference Include="Newtonsoft.Json">
- <HintPath>C:/Users/stavr/Downloads/UnityProject1/Unity Project1/Library/PackageCache/com.unity.nuget.newtonsoft-json@2.0.0/Runtime/Newtonsoft.Json.dll</HintPath>
+ <HintPath>C:/Users/stavr/Downloads/UnityProject1/Unity Project1/UnityF/Library/PackageCache/com.unity.nuget.newtonsoft-json@2.0.0/Runtime/Newtonsoft.Json.dll</HintPath>
  </Reference>
  <Reference Include="unityplastic">
- <HintPath>C:/Users/stavr/Downloads/UnityProject1/Unity Project1/Library/PackageCache/com.unity.collab-proxy@1.5.7/Lib/Editor/PlasticSCM/unityplastic.dll</HintPath>
+ <HintPath>C:/Users/stavr/Downloads/UnityProject1/Unity Project1/UnityF/Library/PackageCache/com.unity.collab-proxy@1.5.7/Lib/Editor/PlasticSCM/unityplastic.dll</HintPath>
  </Reference>
  <Reference Include="nunit.framework">
- <HintPath>C:/Users/stavr/Downloads/UnityProject1/Unity Project1/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll</HintPath>
+ <HintPath>C:/Users/stavr/Downloads/UnityProject1/Unity Project1/UnityF/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll</HintPath>
  </Reference>
  <Reference Include="mscorlib">
  <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.13f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/mscorlib.dll</HintPath>
@@ -647,87 +647,87 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp.csproj">
-      <Project>{71FE2E72-D887-E734-2C81-71C987FE4A05}</Project>
+      <Project>{1F103933-DDB8-80DF-AB72-41D2E4AB32AE}</Project>
       <Name>Assembly-CSharp</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.TestRunner.csproj">
-      <Project>{A6B714D2-FFE0-5854-699B-E1613ACDF753}</Project>
+      <Project>{D100DF3E-8DED-3692-3444-315CFB00DDF4}</Project>
       <Name>UnityEngine.TestRunner</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
     <ProjectReference Include="UnityEditor.TestRunner.csproj">
-      <Project>{81BB0395-4092-12DC-F89D-360D5E0F3990}</Project>
+      <Project>{453347E1-8457-FADC-9C39-BACA40F51D03}</Project>
       <Name>UnityEditor.TestRunner</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
     <ProjectReference Include="Unity.VSCode.Editor.csproj">
-      <Project>{91E28FAA-9F35-BBD4-F983-784499B96C73}</Project>
+      <Project>{18C64A7A-369A-7CF2-B02A-FF4EC8EDE09B}</Project>
       <Name>Unity.VSCode.Editor</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
     <ProjectReference Include="Unity.Postprocessing.Runtime.csproj">
-      <Project>{247DDEE6-DD93-B6A8-0C9D-1D6CDE7A5710}</Project>
+      <Project>{C27BF043-A13C-27B8-C4F3-BDFA2325B918}</Project>
       <Name>Unity.Postprocessing.Runtime</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
     <ProjectReference Include="Unity.TextMeshPro.Editor.csproj">
-      <Project>{7D7CA6B3-442A-2DEE-5FB5-F43F41EF9DCC}</Project>
+      <Project>{755C7E99-A628-F662-F9B2-5689304D8D2C}</Project>
       <Name>Unity.TextMeshPro.Editor</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
     <ProjectReference Include="Unity.VisualStudio.Editor.csproj">
-      <Project>{3CA10F77-4773-E2DE-B09C-8A005CAA712C}</Project>
+      <Project>{2A0CCFA8-A41F-0B50-64DE-461D7833CCDF}</Project>
       <Name>Unity.VisualStudio.Editor</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
     <ProjectReference Include="Unity.Timeline.Editor.csproj">
-      <Project>{015D22EF-A760-28D0-13EB-E5DBEEF74702}</Project>
+      <Project>{0CA40CF9-A27E-CDBA-5167-C5EA53FF8CA0}</Project>
       <Name>Unity.Timeline.Editor</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
     <ProjectReference Include="Unity.Timeline.csproj">
-      <Project>{85177DE1-F378-E194-3234-EDB8F6D039EE}</Project>
+      <Project>{4E1B7AF8-3FB4-392E-A176-BDD8803EC66C}</Project>
       <Name>Unity.Timeline</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
     <ProjectReference Include="Unity.TextMeshPro.csproj">
-      <Project>{27002B5A-C844-A7AC-84F6-A3D52E72DB07}</Project>
+      <Project>{B6C87DD8-28C6-5B7F-0514-536FDC3490F8}</Project>
       <Name>Unity.TextMeshPro</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
     <ProjectReference Include="Unity.Postprocessing.Editor.csproj">
-      <Project>{4C92E8A3-FF2F-4BB1-ECA4-7537C3A8C672}</Project>
+      <Project>{6BB5A6CF-B462-FFD8-26B2-E259019F2C76}</Project>
       <Name>Unity.Postprocessing.Editor</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
     <ProjectReference Include="UnityEditor.UI.csproj">
-      <Project>{6BCA577A-6165-A186-84BE-2B17BA350BDF}</Project>
+      <Project>{9B9A7D31-FA19-D206-6FEC-00B31FA9B3B8}</Project>
       <Name>UnityEditor.UI</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
     <ProjectReference Include="Unity.PlasticSCM.Editor.csproj">
-      <Project>{C27853E2-657F-3AA2-996A-35674F1ABA70}</Project>
+      <Project>{A2C8A0F7-F50A-85C3-FED7-1E07D8730AF6}</Project>
       <Name>Unity.PlasticSCM.Editor</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
     <ProjectReference Include="Unity.Rider.Editor.csproj">
-      <Project>{3C85496F-491F-E548-263B-07AD56D3E0D5}</Project>
+      <Project>{A63DEA69-2DE5-8E33-A4FA-223CE0C3325F}</Project>
       <Name>Unity.Rider.Editor</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
     <ProjectReference Include="Unity.ProGrids.Editor.csproj">
-      <Project>{763D5F1D-7B6B-D3F3-92CA-9483A692FDE6}</Project>
+      <Project>{F7B27EA5-B5A2-89F8-49AC-800D93193825}</Project>
       <Name>Unity.ProGrids.Editor</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.UI.csproj">
-      <Project>{9B95F23A-5600-6B5E-D8CC-4F19FEE8AE26}</Project>
+      <Project>{BFDABE45-ECBF-CCED-43D2-986D629F73A8}</Project>
       <Name>UnityEngine.UI</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
     <ProjectReference Include="Unity.ProGrids.csproj">
-      <Project>{35B61AE0-118D-8A2E-3C6F-221E9B4BCC86}</Project>
+      <Project>{9FE88F4E-41D4-23F6-75E6-40D0D375B103}</Project>
       <Name>Unity.ProGrids</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
