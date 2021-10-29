@@ -1,0 +1,221 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6620727857748009575
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2168625406388589859}
+  m_Layer: 0
+  m_Name: PileOfMugs
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2168625406388589859
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6620727857748009575}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 16.8611, y: 3.3351417, z: -8.7576475}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1890259558863935416}
+  - {fileID: 4732605962187247866}
+  - {fileID: 6641527820727438793}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &1885559000620353546
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 2168625406388589859}
+    m_Modifications:
+    - target: {fileID: 1421228284449660, guid: cf27a61066c7fa64f866c08b4b668e80, type: 3}
+      propertyPath: m_Name
+      value: Cup Coffee Espresso 02 Empty (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4878421429280690, guid: cf27a61066c7fa64f866c08b4b668e80, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4878421429280690, guid: cf27a61066c7fa64f866c08b4b668e80, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.061901093
+      objectReference: {fileID: 0}
+    - target: {fileID: 4878421429280690, guid: cf27a61066c7fa64f866c08b4b668e80, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.03475237
+      objectReference: {fileID: 0}
+    - target: {fileID: 4878421429280690, guid: cf27a61066c7fa64f866c08b4b668e80, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.009647369
+      objectReference: {fileID: 0}
+    - target: {fileID: 4878421429280690, guid: cf27a61066c7fa64f866c08b4b668e80, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4878421429280690, guid: cf27a61066c7fa64f866c08b4b668e80, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.000000021855694
+      objectReference: {fileID: 0}
+    - target: {fileID: 4878421429280690, guid: cf27a61066c7fa64f866c08b4b668e80, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4878421429280690, guid: cf27a61066c7fa64f866c08b4b668e80, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4878421429280690, guid: cf27a61066c7fa64f866c08b4b668e80, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4878421429280690, guid: cf27a61066c7fa64f866c08b4b668e80, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4878421429280690, guid: cf27a61066c7fa64f866c08b4b668e80, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: cf27a61066c7fa64f866c08b4b668e80, type: 3}
+--- !u!4 &1890259558863935416 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4878421429280690, guid: cf27a61066c7fa64f866c08b4b668e80, type: 3}
+  m_PrefabInstance: {fileID: 1885559000620353546}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &4736886214929043272
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 2168625406388589859}
+    m_Modifications:
+    - target: {fileID: 1421228284449660, guid: cf27a61066c7fa64f866c08b4b668e80, type: 3}
+      propertyPath: m_Name
+      value: Cup Coffee Espresso 02 Empty (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4878421429280690, guid: cf27a61066c7fa64f866c08b4b668e80, type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4878421429280690, guid: cf27a61066c7fa64f866c08b4b668e80, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.061901093
+      objectReference: {fileID: 0}
+    - target: {fileID: 4878421429280690, guid: cf27a61066c7fa64f866c08b4b668e80, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.206
+      objectReference: {fileID: 0}
+    - target: {fileID: 4878421429280690, guid: cf27a61066c7fa64f866c08b4b668e80, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.009647369
+      objectReference: {fileID: 0}
+    - target: {fileID: 4878421429280690, guid: cf27a61066c7fa64f866c08b4b668e80, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4878421429280690, guid: cf27a61066c7fa64f866c08b4b668e80, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.000000021855694
+      objectReference: {fileID: 0}
+    - target: {fileID: 4878421429280690, guid: cf27a61066c7fa64f866c08b4b668e80, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4878421429280690, guid: cf27a61066c7fa64f866c08b4b668e80, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4878421429280690, guid: cf27a61066c7fa64f866c08b4b668e80, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4878421429280690, guid: cf27a61066c7fa64f866c08b4b668e80, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4878421429280690, guid: cf27a61066c7fa64f866c08b4b668e80, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: cf27a61066c7fa64f866c08b4b668e80, type: 3}
+--- !u!4 &4732605962187247866 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4878421429280690, guid: cf27a61066c7fa64f866c08b4b668e80, type: 3}
+  m_PrefabInstance: {fileID: 4736886214929043272}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &6645666786216645243
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 2168625406388589859}
+    m_Modifications:
+    - target: {fileID: 1421228284449660, guid: cf27a61066c7fa64f866c08b4b668e80, type: 3}
+      propertyPath: m_Name
+      value: Cup Coffee Espresso 02 Empty (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4878421429280690, guid: cf27a61066c7fa64f866c08b4b668e80, type: 3}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4878421429280690, guid: cf27a61066c7fa64f866c08b4b668e80, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.061901093
+      objectReference: {fileID: 0}
+    - target: {fileID: 4878421429280690, guid: cf27a61066c7fa64f866c08b4b668e80, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.088
+      objectReference: {fileID: 0}
+    - target: {fileID: 4878421429280690, guid: cf27a61066c7fa64f866c08b4b668e80, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.009647369
+      objectReference: {fileID: 0}
+    - target: {fileID: 4878421429280690, guid: cf27a61066c7fa64f866c08b4b668e80, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4878421429280690, guid: cf27a61066c7fa64f866c08b4b668e80, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.000000021855694
+      objectReference: {fileID: 0}
+    - target: {fileID: 4878421429280690, guid: cf27a61066c7fa64f866c08b4b668e80, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4878421429280690, guid: cf27a61066c7fa64f866c08b4b668e80, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4878421429280690, guid: cf27a61066c7fa64f866c08b4b668e80, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4878421429280690, guid: cf27a61066c7fa64f866c08b4b668e80, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4878421429280690, guid: cf27a61066c7fa64f866c08b4b668e80, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: cf27a61066c7fa64f866c08b4b668e80, type: 3}
+--- !u!4 &6641527820727438793 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4878421429280690, guid: cf27a61066c7fa64f866c08b4b668e80, type: 3}
+  m_PrefabInstance: {fileID: 6645666786216645243}
+  m_PrefabAsset: {fileID: 0}

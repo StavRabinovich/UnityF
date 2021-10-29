@@ -1,0 +1,541 @@
+fileFormatVersion: 2
+guid: 51c14883014b0e74fb0996c74ba44e14
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Arm Rest
+    100002: Arm Rest Panel
+    100004: Armrest
+    100006: Armrest.001
+    100008: Back Cushion
+    100010: Back Panel
+    100012: Bar
+    100014: Bar.001
+    100016: Bar.002
+    100018: Base
+    100020: Book Case
+    100022: Bulp
+    100024: Chair Base
+    100026: Coffee Table
+    100028: Couch Base
+    100030: Cushion
+    100032: Cushion.001
+    100034: Cushion.002
+    100036: Cushion.003
+    100038: Cushion.004
+    100040: Cushion.005
+    100042: Cushion.006
+    100044: Cushion.007
+    100046: Cushion.008
+    100048: Cushion.009
+    100050: Desk
+    100052: Desk Top
+    100054: Door
+    100056: Drawer
+    100058: Drawer.001
+    100060: Drawer.002
+    100062: Drawer.003
+    100064: Drawer.004
+    100066: Drawer.005
+    100068: Drawer.006
+    100070: Executive Chair
+    100072: Executive Desk
+    100074: //RootNode
+    100076: Handle
+    100078: Handle.001
+    100080: Handle.002
+    100082: Handle.003
+    100084: Handle.004
+    100086: Handle.007
+    100088: Head Rest
+    100090: Knob
+    100092: Knob.001
+    100094: Lamp
+    100096: Lamp Base
+    100098: Leg
+    100100: Leg.001
+    100102: Leg.002
+    100104: Leg.003
+    100106: Legs
+    100108: Legs.001
+    100110: Legs.002
+    100112: Legs.003
+    100114: Lobby Chair
+    100116: Pillow
+    100118: Pillow.001
+    100120: Pillow.002
+    100122: Pillow.003
+    100124: Pillow.004
+    100126: Pillow.005
+    100128: Seat Base
+    100130: Seat Base.001
+    100132: Seat Cushion
+    100134: Shade
+    100136: Side Table
+    100138: Socket
+    100140: Wheel
+    100142: Wheel Cover
+    100144: Wheel Cover.001
+    100146: Wheel Cover.002
+    100148: Wheel Cover.003
+    100150: Wheel Cover.004
+    100152: Wheel Cover.005
+    100154: Wheel Cover.007
+    100156: Wheel Cover.008
+    100158: Wheel Cover.009
+    100160: Wheel Cover.010
+    100162: Wheel.001
+    100164: Wheel.002
+    100166: Wheeled Chair
+    100168: Wheels.000
+    100170: Wheels.001
+    100172: Wheels.002
+    100174: Wheels.003
+    100176: Wheels.004
+    100178: Wheels.005
+    100180: Wheels.015
+    400000: Arm Rest
+    400002: Arm Rest Panel
+    400004: Armrest
+    400006: Armrest.001
+    400008: Back Cushion
+    400010: Back Panel
+    400012: Bar
+    400014: Bar.001
+    400016: Bar.002
+    400018: Base
+    400020: Book Case
+    400022: Bulp
+    400024: Chair Base
+    400026: Coffee Table
+    400028: Couch Base
+    400030: Cushion
+    400032: Cushion.001
+    400034: Cushion.002
+    400036: Cushion.003
+    400038: Cushion.004
+    400040: Cushion.005
+    400042: Cushion.006
+    400044: Cushion.007
+    400046: Cushion.008
+    400048: Cushion.009
+    400050: Desk
+    400052: Desk Top
+    400054: Door
+    400056: Drawer
+    400058: Drawer.001
+    400060: Drawer.002
+    400062: Drawer.003
+    400064: Drawer.004
+    400066: Drawer.005
+    400068: Drawer.006
+    400070: Executive Chair
+    400072: Executive Desk
+    400074: //RootNode
+    400076: Handle
+    400078: Handle.001
+    400080: Handle.002
+    400082: Handle.003
+    400084: Handle.004
+    400086: Handle.007
+    400088: Head Rest
+    400090: Knob
+    400092: Knob.001
+    400094: Lamp
+    400096: Lamp Base
+    400098: Leg
+    400100: Leg.001
+    400102: Leg.002
+    400104: Leg.003
+    400106: Legs
+    400108: Legs.001
+    400110: Legs.002
+    400112: Legs.003
+    400114: Lobby Chair
+    400116: Pillow
+    400118: Pillow.001
+    400120: Pillow.002
+    400122: Pillow.003
+    400124: Pillow.004
+    400126: Pillow.005
+    400128: Seat Base
+    400130: Seat Base.001
+    400132: Seat Cushion
+    400134: Shade
+    400136: Side Table
+    400138: Socket
+    400140: Wheel
+    400142: Wheel Cover
+    400144: Wheel Cover.001
+    400146: Wheel Cover.002
+    400148: Wheel Cover.003
+    400150: Wheel Cover.004
+    400152: Wheel Cover.005
+    400154: Wheel Cover.007
+    400156: Wheel Cover.008
+    400158: Wheel Cover.009
+    400160: Wheel Cover.010
+    400162: Wheel.001
+    400164: Wheel.002
+    400166: Wheeled Chair
+    400168: Wheels.000
+    400170: Wheels.001
+    400172: Wheels.002
+    400174: Wheels.003
+    400176: Wheels.004
+    400178: Wheels.005
+    400180: Wheels.015
+    2100000: No Name
+    2300000: Arm Rest
+    2300002: Arm Rest Panel
+    2300004: Armrest
+    2300006: Armrest.001
+    2300008: Back Cushion
+    2300010: Back Panel
+    2300012: Bar
+    2300014: Bar.001
+    2300016: Bar.002
+    2300018: Base
+    2300020: Book Case
+    2300022: Bulp
+    2300024: Chair Base
+    2300026: Coffee Table
+    2300028: Couch Base
+    2300030: Cushion
+    2300032: Cushion.001
+    2300034: Cushion.002
+    2300036: Cushion.003
+    2300038: Cushion.004
+    2300040: Cushion.005
+    2300042: Cushion.006
+    2300044: Cushion.007
+    2300046: Cushion.008
+    2300048: Cushion.009
+    2300050: Desk
+    2300052: Desk Top
+    2300054: Door
+    2300056: Drawer
+    2300058: Drawer.001
+    2300060: Drawer.002
+    2300062: Drawer.003
+    2300064: Drawer.004
+    2300066: Drawer.005
+    2300068: Drawer.006
+    2300070: Executive Chair
+    2300072: Executive Desk
+    2300074: Handle
+    2300076: Handle.001
+    2300078: Handle.002
+    2300080: Handle.003
+    2300082: Handle.004
+    2300084: Handle.007
+    2300086: Head Rest
+    2300088: Knob
+    2300090: Knob.001
+    2300092: Lamp
+    2300094: Lamp Base
+    2300096: Leg
+    2300098: Leg.001
+    2300100: Leg.002
+    2300102: Leg.003
+    2300104: Legs
+    2300106: Legs.001
+    2300108: Legs.002
+    2300110: Legs.003
+    2300112: Lobby Chair
+    2300114: Pillow
+    2300116: Pillow.001
+    2300118: Pillow.002
+    2300120: Pillow.003
+    2300122: Pillow.004
+    2300124: Pillow.005
+    2300126: Seat Base
+    2300128: Seat Base.001
+    2300130: Seat Cushion
+    2300132: Shade
+    2300134: Side Table
+    2300136: Socket
+    2300138: Wheel
+    2300140: Wheel Cover
+    2300142: Wheel Cover.001
+    2300144: Wheel Cover.002
+    2300146: Wheel Cover.003
+    2300148: Wheel Cover.004
+    2300150: Wheel Cover.005
+    2300152: Wheel Cover.007
+    2300154: Wheel Cover.008
+    2300156: Wheel Cover.009
+    2300158: Wheel Cover.010
+    2300160: Wheel.001
+    2300162: Wheel.002
+    2300164: Wheeled Chair
+    2300166: Wheels.000
+    2300168: Wheels.001
+    2300170: Wheels.002
+    2300172: Wheels.003
+    2300174: Wheels.004
+    2300176: Wheels.005
+    2300178: Wheels.015
+    3300000: Arm Rest
+    3300002: Arm Rest Panel
+    3300004: Armrest
+    3300006: Armrest.001
+    3300008: Back Cushion
+    3300010: Back Panel
+    3300012: Bar
+    3300014: Bar.001
+    3300016: Bar.002
+    3300018: Base
+    3300020: Book Case
+    3300022: Bulp
+    3300024: Chair Base
+    3300026: Coffee Table
+    3300028: Couch Base
+    3300030: Cushion
+    3300032: Cushion.001
+    3300034: Cushion.002
+    3300036: Cushion.003
+    3300038: Cushion.004
+    3300040: Cushion.005
+    3300042: Cushion.006
+    3300044: Cushion.007
+    3300046: Cushion.008
+    3300048: Cushion.009
+    3300050: Desk
+    3300052: Desk Top
+    3300054: Door
+    3300056: Drawer
+    3300058: Drawer.001
+    3300060: Drawer.002
+    3300062: Drawer.003
+    3300064: Drawer.004
+    3300066: Drawer.005
+    3300068: Drawer.006
+    3300070: Executive Chair
+    3300072: Executive Desk
+    3300074: Handle
+    3300076: Handle.001
+    3300078: Handle.002
+    3300080: Handle.003
+    3300082: Handle.004
+    3300084: Handle.007
+    3300086: Head Rest
+    3300088: Knob
+    3300090: Knob.001
+    3300092: Lamp
+    3300094: Lamp Base
+    3300096: Leg
+    3300098: Leg.001
+    3300100: Leg.002
+    3300102: Leg.003
+    3300104: Legs
+    3300106: Legs.001
+    3300108: Legs.002
+    3300110: Legs.003
+    3300112: Lobby Chair
+    3300114: Pillow
+    3300116: Pillow.001
+    3300118: Pillow.002
+    3300120: Pillow.003
+    3300122: Pillow.004
+    3300124: Pillow.005
+    3300126: Seat Base
+    3300128: Seat Base.001
+    3300130: Seat Cushion
+    3300132: Shade
+    3300134: Side Table
+    3300136: Socket
+    3300138: Wheel
+    3300140: Wheel Cover
+    3300142: Wheel Cover.001
+    3300144: Wheel Cover.002
+    3300146: Wheel Cover.003
+    3300148: Wheel Cover.004
+    3300150: Wheel Cover.005
+    3300152: Wheel Cover.007
+    3300154: Wheel Cover.008
+    3300156: Wheel Cover.009
+    3300158: Wheel Cover.010
+    3300160: Wheel.001
+    3300162: Wheel.002
+    3300164: Wheeled Chair
+    3300166: Wheels.000
+    3300168: Wheels.001
+    3300170: Wheels.002
+    3300172: Wheels.003
+    3300174: Wheels.004
+    3300176: Wheels.005
+    3300178: Wheels.015
+    4300000: Lobby Chair
+    4300002: Armrest
+    4300004: Cushion.009
+    4300006: Cushion
+    4300008: Book Case
+    4300010: Lamp Base
+    4300012: Lamp
+    4300014: Shade
+    4300016: Bar
+    4300018: Socket
+    4300020: Bulp
+    4300022: Side Table
+    4300024: Legs.003
+    4300026: Legs.002
+    4300028: Legs.001
+    4300030: Base
+    4300032: Drawer
+    4300034: Knob
+    4300036: Drawer.006
+    4300038: Knob.001
+    4300040: Legs
+    4300042: Coffee Table
+    4300044: Leg.003
+    4300046: Leg.002
+    4300048: Leg.001
+    4300050: Leg
+    4300052: Couch Base
+    4300054: Pillow.005
+    4300056: Pillow.004
+    4300058: Pillow.002
+    4300060: Pillow.003
+    4300062: Cushion.007
+    4300064: Pillow.001
+    4300066: Cushion.006
+    4300068: Cushion.008
+    4300070: Cushion.005
+    4300072: Pillow
+    4300074: Armrest.001
+    4300076: Desk
+    4300078: Desk Top
+    4300080: Wheeled Chair
+    4300082: Bar.002
+    4300084: Seat Base.001
+    4300086: Cushion.004
+    4300088: Wheel Cover.001
+    4300090: Wheels.000
+    4300092: Wheel Cover.007
+    4300094: Wheels.001
+    4300096: Wheel Cover.008
+    4300098: Wheels.003
+    4300100: Wheel Cover.009
+    4300102: Wheels.004
+    4300104: Wheel Cover.010
+    4300106: Wheels.005
+    4300108: Executive Chair
+    4300110: Bar.001
+    4300112: Back Panel
+    4300114: Head Rest
+    4300116: Back Cushion
+    4300118: Wheel Cover.005
+    4300120: Wheels.002
+    4300122: Wheel Cover.004
+    4300124: Wheel.002
+    4300126: Wheel Cover.003
+    4300128: Wheel
+    4300130: Wheel Cover.002
+    4300132: Wheel.001
+    4300134: Wheel Cover
+    4300136: Wheels.015
+    4300138: Arm Rest
+    4300140: Arm Rest Panel
+    4300142: Seat Base
+    4300144: Seat Cushion
+    4300146: Chair Base
+    4300148: Cushion.002
+    4300150: Cushion.003
+    4300152: Cushion.001
+    4300154: Executive Desk
+    4300156: Drawer.004
+    4300158: Handle.003
+    4300160: Drawer.003
+    4300162: Handle.002
+    4300164: Drawer.002
+    4300166: Handle.001
+    4300168: Drawer.005
+    4300170: Handle.004
+    4300172: Drawer.001
+    4300174: Handle
+    4300176: Door
+    4300178: Handle.007
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,371 @@
+fileFormatVersion: 2
+guid: e15cdeee04197e948bfdd22a61a46939
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Bar
+    100002: Book 01_01
+    100004: Book 01_02
+    100006: Book 01_03
+    100008: Book 01_04
+    100010: Book 01_05
+    100012: Book 01_06
+    100014: Book 01_07
+    100016: Book 01_08
+    100018: Book 01_09
+    100020: Book 01_10
+    100022: Book 02_01
+    100024: Book 02_02
+    100026: Book 02_03
+    100028: Book 02_04
+    100030: Book 02_05
+    100032: Book 02_06
+    100034: Book 02_07
+    100036: Book 03_01
+    100038: Book 03_02
+    100040: Book 03_03
+    100042: Book 03_04
+    100044: Book 03_05
+    100046: Book 03_06
+    100048: Book 04_01
+    100050: Book 04_02
+    100052: Book 04_03
+    100054: Book 04_04
+    100056: Book 04_05
+    100058: Book 04_06
+    100060: Book 04_07
+    100062: Book 05_01
+    100064: Book 05_02
+    100066: Book 05_03
+    100068: Book 05_04
+    100070: Book 05_05
+    100072: Book 05_06
+    100074: Book End L
+    100076: Book End R
+    100078: Bulb
+    100080: Desk Lamp
+    100082: Documents_01
+    100084: Documents_02
+    100086: Paper Cluster_01
+    100088: Paper Cluster_02
+    100090: Paper Cluster_03
+    100092: Paper Cluster_04
+    100094: Paper_01
+    100096: Paper_02
+    100098: Paper_03
+    100100: Paper_04
+    100102: Paper_05
+    100104: Paper_06
+    100106: Plates
+    100108: //RootNode
+    100110: Scale
+    100112: Shade
+    400000: Bar
+    400002: Book 01_01
+    400004: Book 01_02
+    400006: Book 01_03
+    400008: Book 01_04
+    400010: Book 01_05
+    400012: Book 01_06
+    400014: Book 01_07
+    400016: Book 01_08
+    400018: Book 01_09
+    400020: Book 01_10
+    400022: Book 02_01
+    400024: Book 02_02
+    400026: Book 02_03
+    400028: Book 02_04
+    400030: Book 02_05
+    400032: Book 02_06
+    400034: Book 02_07
+    400036: Book 03_01
+    400038: Book 03_02
+    400040: Book 03_03
+    400042: Book 03_04
+    400044: Book 03_05
+    400046: Book 03_06
+    400048: Book 04_01
+    400050: Book 04_02
+    400052: Book 04_03
+    400054: Book 04_04
+    400056: Book 04_05
+    400058: Book 04_06
+    400060: Book 04_07
+    400062: Book 05_01
+    400064: Book 05_02
+    400066: Book 05_03
+    400068: Book 05_04
+    400070: Book 05_05
+    400072: Book 05_06
+    400074: Book End L
+    400076: Book End R
+    400078: Bulb
+    400080: Desk Lamp
+    400082: Documents_01
+    400084: Documents_02
+    400086: Paper Cluster_01
+    400088: Paper Cluster_02
+    400090: Paper Cluster_03
+    400092: Paper Cluster_04
+    400094: Paper_01
+    400096: Paper_02
+    400098: Paper_03
+    400100: Paper_04
+    400102: Paper_05
+    400104: Paper_06
+    400106: Plates
+    400108: //RootNode
+    400110: Scale
+    400112: Shade
+    2100000: No Name
+    2300000: Bar
+    2300002: Book 01_01
+    2300004: Book 01_02
+    2300006: Book 01_03
+    2300008: Book 01_04
+    2300010: Book 01_05
+    2300012: Book 01_06
+    2300014: Book 01_07
+    2300016: Book 01_08
+    2300018: Book 01_09
+    2300020: Book 01_10
+    2300022: Book 02_01
+    2300024: Book 02_02
+    2300026: Book 02_03
+    2300028: Book 02_04
+    2300030: Book 02_05
+    2300032: Book 02_06
+    2300034: Book 02_07
+    2300036: Book 03_01
+    2300038: Book 03_02
+    2300040: Book 03_03
+    2300042: Book 03_04
+    2300044: Book 03_05
+    2300046: Book 03_06
+    2300048: Book 04_01
+    2300050: Book 04_02
+    2300052: Book 04_03
+    2300054: Book 04_04
+    2300056: Book 04_05
+    2300058: Book 04_06
+    2300060: Book 04_07
+    2300062: Book 05_01
+    2300064: Book 05_02
+    2300066: Book 05_03
+    2300068: Book 05_04
+    2300070: Book 05_05
+    2300072: Book 05_06
+    2300074: Book End L
+    2300076: Book End R
+    2300078: Bulb
+    2300080: Desk Lamp
+    2300082: Documents_01
+    2300084: Documents_02
+    2300086: Paper Cluster_01
+    2300088: Paper Cluster_02
+    2300090: Paper Cluster_03
+    2300092: Paper Cluster_04
+    2300094: Paper_01
+    2300096: Paper_02
+    2300098: Paper_03
+    2300100: Paper_04
+    2300102: Paper_05
+    2300104: Paper_06
+    2300106: Plates
+    2300108: Scale
+    2300110: Shade
+    3300000: Bar
+    3300002: Book 01_01
+    3300004: Book 01_02
+    3300006: Book 01_03
+    3300008: Book 01_04
+    3300010: Book 01_05
+    3300012: Book 01_06
+    3300014: Book 01_07
+    3300016: Book 01_08
+    3300018: Book 01_09
+    3300020: Book 01_10
+    3300022: Book 02_01
+    3300024: Book 02_02
+    3300026: Book 02_03
+    3300028: Book 02_04
+    3300030: Book 02_05
+    3300032: Book 02_06
+    3300034: Book 02_07
+    3300036: Book 03_01
+    3300038: Book 03_02
+    3300040: Book 03_03
+    3300042: Book 03_04
+    3300044: Book 03_05
+    3300046: Book 03_06
+    3300048: Book 04_01
+    3300050: Book 04_02
+    3300052: Book 04_03
+    3300054: Book 04_04
+    3300056: Book 04_05
+    3300058: Book 04_06
+    3300060: Book 04_07
+    3300062: Book 05_01
+    3300064: Book 05_02
+    3300066: Book 05_03
+    3300068: Book 05_04
+    3300070: Book 05_05
+    3300072: Book 05_06
+    3300074: Book End L
+    3300076: Book End R
+    3300078: Bulb
+    3300080: Desk Lamp
+    3300082: Documents_01
+    3300084: Documents_02
+    3300086: Paper Cluster_01
+    3300088: Paper Cluster_02
+    3300090: Paper Cluster_03
+    3300092: Paper Cluster_04
+    3300094: Paper_01
+    3300096: Paper_02
+    3300098: Paper_03
+    3300100: Paper_04
+    3300102: Paper_05
+    3300104: Paper_06
+    3300106: Plates
+    3300108: Scale
+    3300110: Shade
+    4300000: Paper_02
+    4300002: Paper_03
+    4300004: Paper_04
+    4300006: Paper_05
+    4300008: Paper_06
+    4300010: Paper_01
+    4300012: Paper Cluster_04
+    4300014: Paper Cluster_02
+    4300016: Paper Cluster_03
+    4300018: Paper Cluster_01
+    4300020: Book End R
+    4300022: Documents_02
+    4300024: Documents_01
+    4300026: Book 05_01
+    4300028: Book 05_02
+    4300030: Book 05_03
+    4300032: Book 05_04
+    4300034: Book 05_05
+    4300036: Book 05_06
+    4300038: Book 04_01
+    4300040: Book 04_02
+    4300042: Book 04_03
+    4300044: Book 04_04
+    4300046: Book 04_05
+    4300048: Book 04_06
+    4300050: Book 04_07
+    4300052: Book 03_06
+    4300054: Book 03_05
+    4300056: Book 03_04
+    4300058: Book 03_03
+    4300060: Book 03_02
+    4300062: Book 03_01
+    4300064: Book 02_07
+    4300066: Book 02_06
+    4300068: Book 02_05
+    4300070: Book 02_04
+    4300072: Book 02_03
+    4300074: Book 02_02
+    4300076: Book 02_01
+    4300078: Book 01_02
+    4300080: Book 01_10
+    4300082: Book 01_09
+    4300084: Book 01_08
+    4300086: Book 01_07
+    4300088: Book 01_06
+    4300090: Book 01_05
+    4300092: Book 01_04
+    4300094: Book 01_03
+    4300096: Scale
+    4300098: Plates
+    4300100: Book 01_01
+    4300102: Book End L
+    4300104: Desk Lamp
+    4300106: Shade
+    4300108: Bulb
+    4300110: Bar
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

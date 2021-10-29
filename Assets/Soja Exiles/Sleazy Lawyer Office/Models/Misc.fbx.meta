@@ -1,0 +1,271 @@
+fileFormatVersion: 2
+guid: 090d24f6da94bcb418b95a06aea930a4
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Blinds
+    100002: Blinds Base NarrowS L
+    100004: Blinds Base Short SL
+    100006: Blinds Base SL
+    100008: Blinds String
+    100010: Blinds String.001
+    100012: Blinds String.002
+    100014: Blinds.001
+    100016: Blinds.002
+    100018: Bottom
+    100020: Bulb
+    100022: Button
+    100024: Button.001
+    100026: Combination Base
+    100028: Combination Pan
+    100030: Dial
+    100032: Door
+    100034: Frame Large Land SL
+    100036: Frame Small Land SL
+    100038: Frame Small Port SL
+    100040: Leg Rest
+    100042: Lobby Shelf Small
+    100044: Microphone SL
+    100046: //RootNode
+    100048: Picture
+    100050: Picture.001
+    100052: Picture.002
+    100054: Pull String
+    100056: Pull String.001
+    100058: Pull String.002
+    100060: Safe SL
+    100062: Seat
+    100064: Self
+    100066: Stool Base SL
+    100068: Top
+    100070: Wall Lamp Base SL
+    100072: Wall Shade
+    400000: Blinds
+    400002: Blinds Base NarrowS L
+    400004: Blinds Base Short SL
+    400006: Blinds Base SL
+    400008: Blinds String
+    400010: Blinds String.001
+    400012: Blinds String.002
+    400014: Blinds.001
+    400016: Blinds.002
+    400018: Bottom
+    400020: Bulb
+    400022: Button
+    400024: Button.001
+    400026: Combination Base
+    400028: Combination Pan
+    400030: Dial
+    400032: Door
+    400034: Frame Large Land SL
+    400036: Frame Small Land SL
+    400038: Frame Small Port SL
+    400040: Leg Rest
+    400042: Lobby Shelf Small
+    400044: Microphone SL
+    400046: //RootNode
+    400048: Picture
+    400050: Picture.001
+    400052: Picture.002
+    400054: Pull String
+    400056: Pull String.001
+    400058: Pull String.002
+    400060: Safe SL
+    400062: Seat
+    400064: Self
+    400066: Stool Base SL
+    400068: Top
+    400070: Wall Lamp Base SL
+    400072: Wall Shade
+    2100000: No Name
+    2300000: Blinds
+    2300002: Blinds Base NarrowS L
+    2300004: Blinds Base Short SL
+    2300006: Blinds Base SL
+    2300008: Blinds String
+    2300010: Blinds String.001
+    2300012: Blinds String.002
+    2300014: Blinds.001
+    2300016: Blinds.002
+    2300018: Bottom
+    2300020: Bulb
+    2300022: Button
+    2300024: Button.001
+    2300026: Combination Base
+    2300028: Combination Pan
+    2300030: Dial
+    2300032: Door
+    2300034: Frame Large Land SL
+    2300036: Frame Small Land SL
+    2300038: Frame Small Port SL
+    2300040: Leg Rest
+    2300042: Lobby Shelf Small
+    2300044: Microphone SL
+    2300046: Picture
+    2300048: Picture.001
+    2300050: Picture.002
+    2300052: Pull String
+    2300054: Pull String.001
+    2300056: Pull String.002
+    2300058: Safe SL
+    2300060: Seat
+    2300062: Self
+    2300064: Stool Base SL
+    2300066: Top
+    2300068: Wall Lamp Base SL
+    2300070: Wall Shade
+    3300000: Blinds
+    3300002: Blinds Base NarrowS L
+    3300004: Blinds Base Short SL
+    3300006: Blinds Base SL
+    3300008: Blinds String
+    3300010: Blinds String.001
+    3300012: Blinds String.002
+    3300014: Blinds.001
+    3300016: Blinds.002
+    3300018: Bottom
+    3300020: Bulb
+    3300022: Button
+    3300024: Button.001
+    3300026: Combination Base
+    3300028: Combination Pan
+    3300030: Dial
+    3300032: Door
+    3300034: Frame Large Land SL
+    3300036: Frame Small Land SL
+    3300038: Frame Small Port SL
+    3300040: Leg Rest
+    3300042: Lobby Shelf Small
+    3300044: Microphone SL
+    3300046: Picture
+    3300048: Picture.001
+    3300050: Picture.002
+    3300052: Pull String
+    3300054: Pull String.001
+    3300056: Pull String.002
+    3300058: Safe SL
+    3300060: Seat
+    3300062: Self
+    3300064: Stool Base SL
+    3300066: Top
+    3300068: Wall Lamp Base SL
+    3300070: Wall Shade
+    4300000: Safe SL
+    4300002: Door
+    4300004: Combination Pan
+    4300006: Combination Base
+    4300008: Dial
+    4300010: Self
+    4300012: Wall Lamp Base SL
+    4300014: Bulb
+    4300016: Wall Shade
+    4300018: Frame Small Port SL
+    4300020: Picture.002
+    4300022: Frame Small Land SL
+    4300024: Picture.001
+    4300026: Frame Large Land SL
+    4300028: Picture
+    4300030: Lobby Shelf Small
+    4300032: Bottom
+    4300034: Top
+    4300036: Microphone SL
+    4300038: Button.001
+    4300040: Button
+    4300042: Stool Base SL
+    4300044: Seat
+    4300046: Leg Rest
+    4300048: Blinds Base Short SL
+    4300050: Blinds.002
+    4300052: Blinds String.002
+    4300054: Pull String.002
+    4300056: Blinds Base NarrowS L
+    4300058: Blinds.001
+    4300060: Blinds String.001
+    4300062: Pull String.001
+    4300064: Blinds Base SL
+    4300066: Pull String
+    4300068: Blinds String
+    4300070: Blinds
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
