@@ -21,7 +21,7 @@ public class PickGun : MonoBehaviour
         {
             if (hit.transform.gameObject == FloorGun.gameObject) // The view is focused on GunInDrawer
             {
-                if(Input.GetKeyDown(KeyCode.P))
+                if(Input.GetKeyDown(KeyCode.E))
                 {
                     FloorGun.gameObject.SetActive(false);
                     FloorGun.gameObject.SetActive(false);
