@@ -115,6 +115,7 @@
     <Compile Include="Assets\Prefabs\CoffeeShopStarterPack\Scripts\Product.cs" />
     <Compile Include="Assets\Prefabs\CoffeeShopStarterPack\Scripts\HeatableProduct.cs" />
     <Compile Include="Assets\Scripts\CaffeScripts\CoffeeMaking\MakeCoffee.cs" />
+    <Compile Include="Assets\Scripts\AllyScripts\AllyMotion.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Nokobot\Modern Guns - Handgun\README.txt" />
