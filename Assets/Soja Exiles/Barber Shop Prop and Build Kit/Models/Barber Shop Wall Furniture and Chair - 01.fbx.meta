@@ -1,0 +1,391 @@
+fileFormatVersion: 2
+guid: 0553179d7279d8d4c96e1fde9e8eec71
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Arm Piece
+    100002: Arm Piece.001
+    100004: Arm Piece.002
+    100006: Arm Piece.003
+    100008: Back Rest
+    100010: Bar
+    100012: Bar.001
+    100014: //RootNode
+    100016: Barbers Chair Base
+    100018: Barbers Table
+    100020: Bulb
+    100022: Bulb.001
+    100024: Bulb.002
+    100026: Cushion Arm
+    100028: Cushion Arm.001
+    100030: Cushion Leg
+    100032: Cushion Leg Rest
+    100034: Cushion.001
+    100036: Cushion.002
+    100038: Door
+    100040: Door.001
+    100042: Door.002
+    100044: Drawer
+    100046: Drawer.001
+    100048: Drawer.002
+    100050: Drawer.003
+    100052: Faucet
+    100054: Handle
+    100056: Handle.001
+    100058: Handle.002
+    100060: Handle.003
+    100062: Handle.004
+    100064: Knob
+    100066: Knob.001
+    100068: Lamp Bar
+    100070: Lamp Base
+    100072: Lamp Base.001
+    100074: Lamp Base.002
+    100076: Leg Rest Base
+    100078: Leg Rest Piece
+    100080: Leg Rest Piece.001
+    100082: Mirror
+    100084: Mirror Frame
+    100086: Pole
+    100088: Pole.001
+    100090: Pole.002
+    100092: Pole.003
+    100094: Pole.004
+    100096: Seat Base
+    100098: Shade
+    100100: Shade.001
+    100102: Shade.002
+    100104: Shelf
+    100106: Sink
+    100108: Sink Base
+    100110: Sink Knob
+    100112: Sink Knob.001
+    100114: Socket
+    100116: Socket.001
+    100118: Socket.002
+    100120: Table Top
+    400000: Arm Piece
+    400002: Arm Piece.001
+    400004: Arm Piece.002
+    400006: Arm Piece.003
+    400008: Back Rest
+    400010: Bar
+    400012: Bar.001
+    400014: //RootNode
+    400016: Barbers Chair Base
+    400018: Barbers Table
+    400020: Bulb
+    400022: Bulb.001
+    400024: Bulb.002
+    400026: Cushion Arm
+    400028: Cushion Arm.001
+    400030: Cushion Leg
+    400032: Cushion Leg Rest
+    400034: Cushion.001
+    400036: Cushion.002
+    400038: Door
+    400040: Door.001
+    400042: Door.002
+    400044: Drawer
+    400046: Drawer.001
+    400048: Drawer.002
+    400050: Drawer.003
+    400052: Faucet
+    400054: Handle
+    400056: Handle.001
+    400058: Handle.002
+    400060: Handle.003
+    400062: Handle.004
+    400064: Knob
+    400066: Knob.001
+    400068: Lamp Bar
+    400070: Lamp Base
+    400072: Lamp Base.001
+    400074: Lamp Base.002
+    400076: Leg Rest Base
+    400078: Leg Rest Piece
+    400080: Leg Rest Piece.001
+    400082: Mirror
+    400084: Mirror Frame
+    400086: Pole
+    400088: Pole.001
+    400090: Pole.002
+    400092: Pole.003
+    400094: Pole.004
+    400096: Seat Base
+    400098: Shade
+    400100: Shade.001
+    400102: Shade.002
+    400104: Shelf
+    400106: Sink
+    400108: Sink Base
+    400110: Sink Knob
+    400112: Sink Knob.001
+    400114: Socket
+    400116: Socket.001
+    400118: Socket.002
+    400120: Table Top
+    2100000: No Name
+    2300000: Arm Piece
+    2300002: Arm Piece.001
+    2300004: Arm Piece.002
+    2300006: Arm Piece.003
+    2300008: Back Rest
+    2300010: Bar
+    2300012: Bar.001
+    2300014: Barbers Chair Base
+    2300016: Barbers Table
+    2300018: Bulb
+    2300020: Bulb.001
+    2300022: Bulb.002
+    2300024: Cushion Arm
+    2300026: Cushion Arm.001
+    2300028: Cushion Leg
+    2300030: Cushion Leg Rest
+    2300032: Cushion.001
+    2300034: Cushion.002
+    2300036: Door
+    2300038: Door.001
+    2300040: Door.002
+    2300042: Drawer
+    2300044: Drawer.001
+    2300046: Drawer.002
+    2300048: Drawer.003
+    2300050: Faucet
+    2300052: Handle
+    2300054: Handle.001
+    2300056: Handle.002
+    2300058: Handle.003
+    2300060: Handle.004
+    2300062: Knob
+    2300064: Knob.001
+    2300066: Lamp Bar
+    2300068: Lamp Base
+    2300070: Lamp Base.001
+    2300072: Lamp Base.002
+    2300074: Leg Rest Base
+    2300076: Leg Rest Piece
+    2300078: Leg Rest Piece.001
+    2300080: Mirror
+    2300082: Mirror Frame
+    2300084: Pole
+    2300086: Pole.001
+    2300088: Pole.002
+    2300090: Pole.003
+    2300092: Pole.004
+    2300094: Seat Base
+    2300096: Shade
+    2300098: Shade.001
+    2300100: Shade.002
+    2300102: Shelf
+    2300104: Sink
+    2300106: Sink Base
+    2300108: Sink Knob
+    2300110: Sink Knob.001
+    2300112: Socket
+    2300114: Socket.001
+    2300116: Socket.002
+    2300118: Table Top
+    3300000: Arm Piece
+    3300002: Arm Piece.001
+    3300004: Arm Piece.002
+    3300006: Arm Piece.003
+    3300008: Back Rest
+    3300010: Bar
+    3300012: Bar.001
+    3300014: Barbers Chair Base
+    3300016: Barbers Table
+    3300018: Bulb
+    3300020: Bulb.001
+    3300022: Bulb.002
+    3300024: Cushion Arm
+    3300026: Cushion Arm.001
+    3300028: Cushion Leg
+    3300030: Cushion Leg Rest
+    3300032: Cushion.001
+    3300034: Cushion.002
+    3300036: Door
+    3300038: Door.001
+    3300040: Door.002
+    3300042: Drawer
+    3300044: Drawer.001
+    3300046: Drawer.002
+    3300048: Drawer.003
+    3300050: Faucet
+    3300052: Handle
+    3300054: Handle.001
+    3300056: Handle.002
+    3300058: Handle.003
+    3300060: Handle.004
+    3300062: Knob
+    3300064: Knob.001
+    3300066: Lamp Bar
+    3300068: Lamp Base
+    3300070: Lamp Base.001
+    3300072: Lamp Base.002
+    3300074: Leg Rest Base
+    3300076: Leg Rest Piece
+    3300078: Leg Rest Piece.001
+    3300080: Mirror
+    3300082: Mirror Frame
+    3300084: Pole
+    3300086: Pole.001
+    3300088: Pole.002
+    3300090: Pole.003
+    3300092: Pole.004
+    3300094: Seat Base
+    3300096: Shade
+    3300098: Shade.001
+    3300100: Shade.002
+    3300102: Shelf
+    3300104: Sink
+    3300106: Sink Base
+    3300108: Sink Knob
+    3300110: Sink Knob.001
+    3300112: Socket
+    3300114: Socket.001
+    3300116: Socket.002
+    3300118: Table Top
+    4300000: Lamp Bar
+    4300002: Pole.004
+    4300004: Lamp Base.002
+    4300006: Shade.002
+    4300008: Socket.002
+    4300010: Bulb.002
+    4300012: Pole.003
+    4300014: Lamp Base.001
+    4300016: Shade.001
+    4300018: Socket.001
+    4300020: Bulb.001
+    4300022: Pole.002
+    4300024: Lamp Base
+    4300026: Shade
+    4300028: Socket
+    4300030: Bulb
+    4300032: Barbers Chair Base
+    4300034: Pole
+    4300036: Pole.001
+    4300038: Seat Base
+    4300040: Bar
+    4300042: Cushion Arm
+    4300044: Arm Piece.001
+    4300046: Arm Piece.002
+    4300048: Cushion Arm.001
+    4300050: Arm Piece
+    4300052: Arm Piece.003
+    4300054: Leg Rest Base
+    4300056: Leg Rest Piece
+    4300058: Cushion Leg Rest
+    4300060: Leg Rest Piece.001
+    4300062: Cushion Leg
+    4300064: Cushion.001
+    4300066: Bar.001
+    4300068: Back Rest
+    4300070: Cushion.002
+    4300072: Mirror Frame
+    4300074: Mirror
+    4300076: Barbers Table
+    4300078: Shelf
+    4300080: Sink
+    4300082: Sink Base
+    4300084: Sink Knob
+    4300086: Sink Knob.001
+    4300088: Faucet
+    4300090: Drawer.003
+    4300092: Handle.001
+    4300094: Drawer.002
+    4300096: Handle
+    4300098: Drawer.001
+    4300100: Knob
+    4300102: Drawer
+    4300104: Knob.001
+    4300106: Door.002
+    4300108: Handle.002
+    4300110: Door.001
+    4300112: Handle.004
+    4300114: Door
+    4300116: Handle.003
+    4300118: Table Top
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

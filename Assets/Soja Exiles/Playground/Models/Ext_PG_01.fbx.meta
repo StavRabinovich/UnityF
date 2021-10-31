@@ -1,0 +1,233 @@
+fileFormatVersion: 2
+guid: d0862860daa3cb14697e8ebf36070884
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: Bars
+    100002: Elbow
+    100004: Elbow.003
+    100006: //RootNode
+    100008: Ext_PG_Base_01_01
+    100010: Ext_PG_Base_01_02
+    100012: Ext_PG_Base_01_03
+    100014: Ext_PG_BaseSingle_01_01
+    100016: Ext_PG_BaseSingle_01_02
+    100018: Ext_PG_BaseSingle_01_03
+    100020: Ext_PG_Frence_01_01
+    100022: Ext_PG_Frence_01_02
+    100024: Ext_PG_Frence_01_03
+    100026: Ext_PG_Frence_01_04
+    100028: Ext_PG_Frence_01_05
+    100030: Ext_PG_Ladder_01_01
+    100032: Ext_PG_Roof_01_01
+    100034: Ext_PG_Roof_01_02
+    100036: Ext_PG_Slide_01_01
+    100038: Ext_PG_Stairs_01_01
+    100040: Ext_PG_Stairs_01_02
+    100042: Ext_PG_WoodenBase_01_01
+    100044: Ext_PG_WoodenBase_01_02
+    100046: Joint
+    100048: Joint.001
+    100050: Joint.002
+    100052: Joint.003
+    100054: Joint.004
+    100056: Rail
+    100058: Seat
+    400000: Bars
+    400002: Elbow
+    400004: Elbow.003
+    400006: //RootNode
+    400008: Ext_PG_Base_01_01
+    400010: Ext_PG_Base_01_02
+    400012: Ext_PG_Base_01_03
+    400014: Ext_PG_BaseSingle_01_01
+    400016: Ext_PG_BaseSingle_01_02
+    400018: Ext_PG_BaseSingle_01_03
+    400020: Ext_PG_Frence_01_01
+    400022: Ext_PG_Frence_01_02
+    400024: Ext_PG_Frence_01_03
+    400026: Ext_PG_Frence_01_04
+    400028: Ext_PG_Frence_01_05
+    400030: Ext_PG_Ladder_01_01
+    400032: Ext_PG_Roof_01_01
+    400034: Ext_PG_Roof_01_02
+    400036: Ext_PG_Slide_01_01
+    400038: Ext_PG_Stairs_01_01
+    400040: Ext_PG_Stairs_01_02
+    400042: Ext_PG_WoodenBase_01_01
+    400044: Ext_PG_WoodenBase_01_02
+    400046: Joint
+    400048: Joint.001
+    400050: Joint.002
+    400052: Joint.003
+    400054: Joint.004
+    400056: Rail
+    400058: Seat
+    2100000: No Name
+    2300000: Bars
+    2300002: Elbow
+    2300004: Elbow.003
+    2300006: Ext_PG_Base_01_01
+    2300008: Ext_PG_Base_01_02
+    2300010: Ext_PG_Base_01_03
+    2300012: Ext_PG_BaseSingle_01_01
+    2300014: Ext_PG_BaseSingle_01_02
+    2300016: Ext_PG_BaseSingle_01_03
+    2300018: Ext_PG_Frence_01_01
+    2300020: Ext_PG_Frence_01_02
+    2300022: Ext_PG_Frence_01_03
+    2300024: Ext_PG_Frence_01_04
+    2300026: Ext_PG_Frence_01_05
+    2300028: Ext_PG_Ladder_01_01
+    2300030: Ext_PG_Roof_01_01
+    2300032: Ext_PG_Roof_01_02
+    2300034: Ext_PG_Slide_01_01
+    2300036: Ext_PG_Stairs_01_01
+    2300038: Ext_PG_Stairs_01_02
+    2300040: Ext_PG_WoodenBase_01_01
+    2300042: Ext_PG_WoodenBase_01_02
+    2300044: Joint
+    2300046: Joint.001
+    2300048: Joint.002
+    2300050: Joint.003
+    2300052: Joint.004
+    2300054: Rail
+    2300056: Seat
+    3300000: Bars
+    3300002: Elbow
+    3300004: Elbow.003
+    3300006: Ext_PG_Base_01_01
+    3300008: Ext_PG_Base_01_02
+    3300010: Ext_PG_Base_01_03
+    3300012: Ext_PG_BaseSingle_01_01
+    3300014: Ext_PG_BaseSingle_01_02
+    3300016: Ext_PG_BaseSingle_01_03
+    3300018: Ext_PG_Frence_01_01
+    3300020: Ext_PG_Frence_01_02
+    3300022: Ext_PG_Frence_01_03
+    3300024: Ext_PG_Frence_01_04
+    3300026: Ext_PG_Frence_01_05
+    3300028: Ext_PG_Ladder_01_01
+    3300030: Ext_PG_Roof_01_01
+    3300032: Ext_PG_Roof_01_02
+    3300034: Ext_PG_Slide_01_01
+    3300036: Ext_PG_Stairs_01_01
+    3300038: Ext_PG_Stairs_01_02
+    3300040: Ext_PG_WoodenBase_01_01
+    3300042: Ext_PG_WoodenBase_01_02
+    3300044: Joint
+    3300046: Joint.001
+    3300048: Joint.002
+    3300050: Joint.003
+    3300052: Joint.004
+    3300054: Rail
+    3300056: Seat
+    4300000: Ext_PG_Stairs_01_01
+    4300002: Rail
+    4300004: Ext_PG_BaseSingle_01_01
+    4300006: Ext_PG_BaseSingle_01_02
+    4300008: Ext_PG_BaseSingle_01_03
+    4300010: Ext_PG_Roof_01_02
+    4300012: Ext_PG_Roof_01_01
+    4300014: Ext_PG_Frence_01_05
+    4300016: Joint.004
+    4300018: Seat
+    4300020: Ext_PG_Frence_01_01
+    4300022: Joint
+    4300024: Ext_PG_Ladder_01_01
+    4300026: Ext_PG_Stairs_01_02
+    4300028: Bars
+    4300030: Ext_PG_Base_01_03
+    4300032: Ext_PG_Base_01_02
+    4300034: Ext_PG_Frence_01_04
+    4300036: Joint.003
+    4300038: Ext_PG_WoodenBase_01_02
+    4300040: Ext_PG_Frence_01_02
+    4300042: Joint.001
+    4300044: Ext_PG_Slide_01_01
+    4300046: Elbow.003
+    4300048: Ext_PG_Frence_01_03
+    4300050: Joint.002
+    4300052: Ext_PG_WoodenBase_01_01
+    4300054: Elbow
+    4300056: Ext_PG_Base_01_01
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

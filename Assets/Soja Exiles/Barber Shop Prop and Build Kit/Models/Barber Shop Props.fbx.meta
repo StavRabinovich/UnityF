@@ -1,0 +1,326 @@
+fileFormatVersion: 2
+guid: 2af834025a92b9446aec1780b97a15a5
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Adjuster
+    100002: //RootNode
+    100004: Blade
+    100006: Blade.001
+    100008: Blade.002
+    100010: Blade.003
+    100012: Blow Dryer
+    100014: bristles
+    100016: Brush
+    100018: Brush Handle
+    100020: Brush.002
+    100022: Brush.003
+    100024: Button
+    100026: Cap
+    100028: Cap.001
+    100030: Cap.002
+    100032: Cap.003
+    100034: Cap.004
+    100036: Cap.005
+    100038: Comb
+    100040: Comb Fancy
+    100042: Comb Handle
+    100044: Comb Simple
+    100046: Comb.001
+    100048: Container short
+    100050: Contaner Tall
+    100052: Cord
+    100054: End
+    100056: Gel Container
+    100058: Razon
+    100060: Ring
+    100062: Ring.001
+    100064: scissor screw
+    100066: scissor screw.001
+    100068: Shampoo
+    100070: Shampoo.001
+    100072: Shaving Brush Base
+    100074: Shaving Brush Base.001
+    100076: Straight Razor
+    100078: Switch
+    100080: Talc
+    100082: Towel
+    100084: Towel Rack
+    100086: Towel Rolled
+    100088: Trash Can
+    100090: Trim
+    100092: Trimmer
+    100094: Wax Container
+    400000: Adjuster
+    400002: //RootNode
+    400004: Blade
+    400006: Blade.001
+    400008: Blade.002
+    400010: Blade.003
+    400012: Blow Dryer
+    400014: bristles
+    400016: Brush
+    400018: Brush Handle
+    400020: Brush.002
+    400022: Brush.003
+    400024: Button
+    400026: Cap
+    400028: Cap.001
+    400030: Cap.002
+    400032: Cap.003
+    400034: Cap.004
+    400036: Cap.005
+    400038: Comb
+    400040: Comb Fancy
+    400042: Comb Handle
+    400044: Comb Simple
+    400046: Comb.001
+    400048: Container short
+    400050: Contaner Tall
+    400052: Cord
+    400054: End
+    400056: Gel Container
+    400058: Razon
+    400060: Ring
+    400062: Ring.001
+    400064: scissor screw
+    400066: scissor screw.001
+    400068: Shampoo
+    400070: Shampoo.001
+    400072: Shaving Brush Base
+    400074: Shaving Brush Base.001
+    400076: Straight Razor
+    400078: Switch
+    400080: Talc
+    400082: Towel
+    400084: Towel Rack
+    400086: Towel Rolled
+    400088: Trash Can
+    400090: Trim
+    400092: Trimmer
+    400094: Wax Container
+    2100000: No Name
+    2300000: Adjuster
+    2300002: Blade
+    2300004: Blade.001
+    2300006: Blade.002
+    2300008: Blade.003
+    2300010: Blow Dryer
+    2300012: bristles
+    2300014: Brush
+    2300016: Brush Handle
+    2300018: Brush.002
+    2300020: Brush.003
+    2300022: Button
+    2300024: Cap
+    2300026: Cap.001
+    2300028: Cap.002
+    2300030: Cap.003
+    2300032: Cap.004
+    2300034: Cap.005
+    2300036: Comb
+    2300038: Comb Fancy
+    2300040: Comb Handle
+    2300042: Comb Simple
+    2300044: Comb.001
+    2300046: Container short
+    2300048: Contaner Tall
+    2300050: Cord
+    2300052: End
+    2300054: Gel Container
+    2300056: Razon
+    2300058: Ring
+    2300060: Ring.001
+    2300062: scissor screw
+    2300064: scissor screw.001
+    2300066: Shampoo
+    2300068: Shampoo.001
+    2300070: Shaving Brush Base
+    2300072: Shaving Brush Base.001
+    2300074: Straight Razor
+    2300076: Switch
+    2300078: Talc
+    2300080: Towel
+    2300082: Towel Rack
+    2300084: Towel Rolled
+    2300086: Trash Can
+    2300088: Trim
+    2300090: Trimmer
+    2300092: Wax Container
+    3300000: Adjuster
+    3300002: Blade
+    3300004: Blade.001
+    3300006: Blade.002
+    3300008: Blade.003
+    3300010: Blow Dryer
+    3300012: bristles
+    3300014: Brush
+    3300016: Brush Handle
+    3300018: Brush.002
+    3300020: Brush.003
+    3300022: Button
+    3300024: Cap
+    3300026: Cap.001
+    3300028: Cap.002
+    3300030: Cap.003
+    3300032: Cap.004
+    3300034: Cap.005
+    3300036: Comb
+    3300038: Comb Fancy
+    3300040: Comb Handle
+    3300042: Comb Simple
+    3300044: Comb.001
+    3300046: Container short
+    3300048: Contaner Tall
+    3300050: Cord
+    3300052: End
+    3300054: Gel Container
+    3300056: Razon
+    3300058: Ring
+    3300060: Ring.001
+    3300062: scissor screw
+    3300064: scissor screw.001
+    3300066: Shampoo
+    3300068: Shampoo.001
+    3300070: Shaving Brush Base
+    3300072: Shaving Brush Base.001
+    3300074: Straight Razor
+    3300076: Switch
+    3300078: Talc
+    3300080: Towel
+    3300082: Towel Rack
+    3300084: Towel Rolled
+    3300086: Trash Can
+    3300088: Trim
+    3300090: Trimmer
+    3300092: Wax Container
+    4300000: Comb Simple
+    4300002: Comb Fancy
+    4300004: scissor screw.001
+    4300006: Blade.001
+    4300008: Blade.002
+    4300010: Talc
+    4300012: Cap.005
+    4300014: Trimmer
+    4300016: Adjuster
+    4300018: Cord
+    4300020: Trim
+    4300022: Switch
+    4300024: Blow Dryer
+    4300026: Ring.001
+    4300028: Cap.004
+    4300030: Button
+    4300032: End
+    4300034: Shaving Brush Base.001
+    4300036: Brush.003
+    4300038: Brush
+    4300040: Shaving Brush Base
+    4300042: Brush.002
+    4300044: Shampoo
+    4300046: Cap.003
+    4300048: Shampoo.001
+    4300050: Cap
+    4300052: Straight Razor
+    4300054: Razon
+    4300056: Towel Rolled
+    4300058: Trash Can
+    4300060: Gel Container
+    4300062: Cap.001
+    4300064: Wax Container
+    4300066: Cap.002
+    4300068: Brush Handle
+    4300070: bristles
+    4300072: Comb Handle
+    4300074: Comb.001
+    4300076: Comb
+    4300078: Contaner Tall
+    4300080: Container short
+    4300082: scissor screw
+    4300084: Blade.003
+    4300086: Blade
+    4300088: Towel Rack
+    4300090: Ring
+    4300092: Towel
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

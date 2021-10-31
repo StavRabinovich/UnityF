@@ -1,0 +1,188 @@
+fileFormatVersion: 2
+guid: 73a152fee2f6c2a4abb717a866cb2c18
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: Bars_MeshColl
+    100002: //RootNode
+    100004: Ext_PG_Frence_01_01_MeshColl
+    100006: Ext_PG_Frence_01_02_MeshColl
+    100008: Ext_PG_Frence_01_03_MeshColl
+    100010: Ext_PG_Frence_01_04_MeshColl
+    100012: Ext_PG_Frence_Slant_01_01_MeshColl
+    100014: Ext_PG_Frence_Slant_01_02_MeshColl
+    100016: Ext_PG_Frence_Slant_01_03_MeshColl
+    100018: Ext_PG_Frence_Slant_01_04_MeshColl
+    100020: Ext_PG_Ladder_01_01_MeshColl
+    100022: Ext_PG_Ladder_01_02_MeshColl
+    100024: Ext_PG_MonkeyBars_01_01_MeshColl
+    100026: Ext_PG_MonkeyBars_01_02_MeshColl
+    100028: Ext_PG_MonkeyBarsSupport_01_01_MeshColl
+    100030: Ext_PG_MonkeyBarsSupport_01_02_MeshColl
+    100032: Ext_PG_Slide_01_01_MeshColl
+    100034: Ext_PG_Stairs_01_02_MeshColl
+    100036: Ext_PG_WoodenBase_01_02_MeshColl
+    100038: Rail_MeshColl
+    100040: Ext_PG_Stairs_01_01_MeshColl
+    400000: Bars_MeshColl
+    400002: //RootNode
+    400004: Ext_PG_Frence_01_01_MeshColl
+    400006: Ext_PG_Frence_01_02_MeshColl
+    400008: Ext_PG_Frence_01_03_MeshColl
+    400010: Ext_PG_Frence_01_04_MeshColl
+    400012: Ext_PG_Frence_Slant_01_01_MeshColl
+    400014: Ext_PG_Frence_Slant_01_02_MeshColl
+    400016: Ext_PG_Frence_Slant_01_03_MeshColl
+    400018: Ext_PG_Frence_Slant_01_04_MeshColl
+    400020: Ext_PG_Ladder_01_01_MeshColl
+    400022: Ext_PG_Ladder_01_02_MeshColl
+    400024: Ext_PG_MonkeyBars_01_01_MeshColl
+    400026: Ext_PG_MonkeyBars_01_02_MeshColl
+    400028: Ext_PG_MonkeyBarsSupport_01_01_MeshColl
+    400030: Ext_PG_MonkeyBarsSupport_01_02_MeshColl
+    400032: Ext_PG_Slide_01_01_MeshColl
+    400034: Ext_PG_Stairs_01_02_MeshColl
+    400036: Ext_PG_WoodenBase_01_02_MeshColl
+    400038: Rail_MeshColl
+    400040: Ext_PG_Stairs_01_01_MeshColl
+    2100000: No Name
+    2300000: Bars_MeshColl
+    2300002: Ext_PG_Frence_01_01_MeshColl
+    2300004: Ext_PG_Frence_01_02_MeshColl
+    2300006: Ext_PG_Frence_01_03_MeshColl
+    2300008: Ext_PG_Frence_01_04_MeshColl
+    2300010: Ext_PG_Frence_Slant_01_01_MeshColl
+    2300012: Ext_PG_Frence_Slant_01_02_MeshColl
+    2300014: Ext_PG_Frence_Slant_01_03_MeshColl
+    2300016: Ext_PG_Frence_Slant_01_04_MeshColl
+    2300018: Ext_PG_Ladder_01_01_MeshColl
+    2300020: Ext_PG_Ladder_01_02_MeshColl
+    2300022: Ext_PG_MonkeyBars_01_01_MeshColl
+    2300024: Ext_PG_MonkeyBars_01_02_MeshColl
+    2300026: Ext_PG_MonkeyBarsSupport_01_01_MeshColl
+    2300028: Ext_PG_MonkeyBarsSupport_01_02_MeshColl
+    2300030: Ext_PG_Slide_01_01_MeshColl
+    2300032: Ext_PG_Stairs_01_02_MeshColl
+    2300034: Ext_PG_WoodenBase_01_02_MeshColl
+    2300036: Rail_MeshColl
+    2300038: Ext_PG_Stairs_01_01_MeshColl
+    3300000: Bars_MeshColl
+    3300002: Ext_PG_Frence_01_01_MeshColl
+    3300004: Ext_PG_Frence_01_02_MeshColl
+    3300006: Ext_PG_Frence_01_03_MeshColl
+    3300008: Ext_PG_Frence_01_04_MeshColl
+    3300010: Ext_PG_Frence_Slant_01_01_MeshColl
+    3300012: Ext_PG_Frence_Slant_01_02_MeshColl
+    3300014: Ext_PG_Frence_Slant_01_03_MeshColl
+    3300016: Ext_PG_Frence_Slant_01_04_MeshColl
+    3300018: Ext_PG_Ladder_01_01_MeshColl
+    3300020: Ext_PG_Ladder_01_02_MeshColl
+    3300022: Ext_PG_MonkeyBars_01_01_MeshColl
+    3300024: Ext_PG_MonkeyBars_01_02_MeshColl
+    3300026: Ext_PG_MonkeyBarsSupport_01_01_MeshColl
+    3300028: Ext_PG_MonkeyBarsSupport_01_02_MeshColl
+    3300030: Ext_PG_Slide_01_01_MeshColl
+    3300032: Ext_PG_Stairs_01_02_MeshColl
+    3300034: Ext_PG_WoodenBase_01_02_MeshColl
+    3300036: Rail_MeshColl
+    3300038: Ext_PG_Stairs_01_01_MeshColl
+    4300000: Ext_PG_Frence_01_01_MeshColl
+    4300002: Ext_PG_Stairs_01_02_MeshColl
+    4300004: Bars_MeshColl
+    4300006: Rail_MeshColl
+    4300008: Ext_PG_Frence_01_04_MeshColl
+    4300010: Ext_PG_WoodenBase_01_02_MeshColl
+    4300012: Ext_PG_Frence_01_02_MeshColl
+    4300014: Ext_PG_Frence_01_03_MeshColl
+    4300016: Ext_PG_Ladder_01_01_MeshColl
+    4300018: Ext_PG_Slide_01_01_MeshColl
+    4300020: Ext_PG_MonkeyBars_01_01_MeshColl
+    4300022: Ext_PG_MonkeyBars_01_02_MeshColl
+    4300024: Ext_PG_MonkeyBarsSupport_01_01_MeshColl
+    4300026: Ext_PG_MonkeyBarsSupport_01_02_MeshColl
+    4300028: Ext_PG_Frence_Slant_01_01_MeshColl
+    4300030: Ext_PG_Frence_Slant_01_02_MeshColl
+    4300032: Ext_PG_Frence_Slant_01_03_MeshColl
+    4300034: Ext_PG_Frence_Slant_01_04_MeshColl
+    4300036: Ext_PG_Ladder_01_02_MeshColl
+    4300038: Ext_PG_Stairs_01_01_MeshColl
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

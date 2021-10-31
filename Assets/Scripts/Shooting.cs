@@ -21,8 +21,7 @@ public class Shooting : MonoBehaviour
     {
         lineR = GetComponent<LineRenderer>();
         animator = npc.GetComponent<Animator>();
-        hitCount = 0;
-        
+        hitCount = 0;        
     }
 
     IEnumerator ShowFlash(){
@@ -51,14 +50,14 @@ public class Shooting : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(Input.GetKeyDown(KeyCode.Space))
+        if((Input.GetKeyDown(KeyCode.Space))&&(gun.active))
         {
             RaycastHit hit;
             if (Physics.Raycast(mCamera.transform.position, mCamera.transform.forward, out hit))
             {
-                target.transform.position = hit.point;
+                GameObject bulletClone = Instantiate(target, hit.transform.position , transform.rotation);
+                bulletClone.transform.position = hit.point;
                 StartCoroutine(ShowFlash());
-
                 if(npc.transform.gameObject == hit.transform.gameObject)
                 {
                     // animator.SetInteger("state", 2);
@@ -73,7 +72,13 @@ public class Shooting : MonoBehaviour
                         animator.SetInteger("NinjaState", 2);
                     }
                 }
+                fireSound.Play();
+            }
+            else
+            {
+                fireSound.Play();
             }
         }
+
     }
 }

@@ -30,13 +30,13 @@ public class Drawer1Motion : MonoBehaviour
             if (hit.distance < 2 && hit.transform.gameObject == this.gameObject){
                 if(drawerIsClosed && !textIsOpen)
                 {
-                    drawerText.text = "Press [E] to OPEN";
+                    drawerText.text = "Press [R] to OPEN";
                     textIsOpen = true;
                 }
                     
                 else if(!drawerIsClosed && textIsOpen)
                 {
-                    drawerText.text = "Press [E] to CLOSE";
+                    drawerText.text = "Press [R] to CLOSE";
                     if(mGun.activeSelf)
                         drawerText.text += "\nPress [P] to PICK gun";
                     textIsOpen = false;
@@ -44,7 +44,7 @@ public class Drawer1Motion : MonoBehaviour
                 drawerText.gameObject.SetActive(true);
                 crossHairSeeThrough.SetActive(false);
                 crossHairTouch.SetActive(true);
-                if(Input.GetKeyDown(KeyCode.E))
+                if(Input.GetKeyDown(KeyCode.R))
                 {
                     animator.SetBool("drawer1Open", drawerIsClosed);
                     drawerIsClosed = !drawerIsClosed;
