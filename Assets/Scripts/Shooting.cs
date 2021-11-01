@@ -13,15 +13,17 @@ public class Shooting : MonoBehaviour
     public AudioSource fireSound;
     public GameObject npc;
     private Animator animator;
-    
-
+    private string otherTeam;
+    private string myTeam;
     private int hitCount;
+    public float bulletImpulse = 100f;
     // Start is called before the first frame update
     void Start()
     {
         lineR = GetComponent<LineRenderer>();
         animator = npc.GetComponent<Animator>();
-        hitCount = 0;        
+        hitCount = 0;
+        this.myTeam = this.gameObject.tag;
     }
 
     IEnumerator ShowFlash(){
@@ -34,7 +36,7 @@ public class Shooting : MonoBehaviour
         lineR.SetPosition(1, transform.position);
     }
 
-    IEnumerator fallAndGetUp()
+ /*   IEnumerator fallAndGetUp()
     {
         NavMeshAgent agent;
         agent = npc.GetComponent<NavMeshAgent>();
@@ -46,6 +48,11 @@ public class Shooting : MonoBehaviour
         agent.enabled = true; // Stops movement
         // animator.SetInteger("NinjaState", 0);
         animator.SetInteger("NinjaState", 1);
+    }*/
+    public IEnumerator shootBullet(GameObject bulletClone)
+    {
+        yield return new WaitForSeconds(0.5f);
+        bulletClone.SetActive(false);
     }
     // Update is called once per frame
     void Update()
@@ -53,26 +60,14 @@ public class Shooting : MonoBehaviour
         if((Input.GetKeyDown(KeyCode.Space))&&(gun.active))
         {
             RaycastHit hit;
-            if (Physics.Raycast(mCamera.transform.position, mCamera.transform.forward, out hit))
+            // If the object before me is not in my team, There will be a hit, else only sound
+            if (Physics.Raycast(mCamera.transform.position, mCamera.transform.forward, out hit) && !hit.transform.tag.Equals(this.myTeam))
             {
-                GameObject bulletClone = Instantiate(target, hit.transform.position , transform.rotation);
+                GameObject bulletClone = Instantiate(this.target, hit.transform.position, transform.rotation);
                 bulletClone.transform.position = hit.point;
-                StartCoroutine(ShowFlash());
-                if(npc.transform.gameObject == hit.transform.gameObject)
-                {
-                    // animator.SetInteger("state", 2);
-                    hitCount++;
-
-                    if(hitCount<2)
-                        StartCoroutine(fallAndGetUp());
-                    else
-                    {
-                        NavMeshAgent agent = npc.GetComponent<NavMeshAgent>();
-                        agent.enabled = false; // Stops movement
-                        animator.SetInteger("NinjaState", 2);
-                    }
-                }
                 fireSound.Play();
+                StartCoroutine(shootBullet(bulletClone));
+                print(hit.ToString());
             }
             else
             {
@@ -81,4 +76,14 @@ public class Shooting : MonoBehaviour
         }
 
     }
+    private void OnTriggerEnter(Collider other)
+    {
+        GameObject target = other.gameObject;
+        if(other.gameObject.tag.Equals("Bullet"))
+        {
+            animator.SetInteger("state", 2);
+            print("hit");
+        }
+    }
+
 }

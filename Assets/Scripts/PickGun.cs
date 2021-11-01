@@ -14,7 +14,7 @@ public class PickGun : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        System.Random rand = new System.Random();
+/*        System.Random rand = new System.Random();
         isShown = rand.Next(0,2)>0;
         notTaken = true;
         textIsOpen = false;
@@ -22,7 +22,7 @@ public class PickGun : MonoBehaviour
         if (!isShown)
         {
             this.gameObject.SetActive(false); 
-        }
+        }*/
     }
 
     // Update is called once per frame

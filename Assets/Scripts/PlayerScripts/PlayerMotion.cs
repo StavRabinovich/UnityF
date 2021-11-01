@@ -8,6 +8,7 @@ public class PlayerMotion : MonoBehaviour
     private float speed, angularSpeed;
     private CharacterController controller;
     private float rotaionAboutX, rotaionAboutY;
+    [SerializeField]
     public GameObject playerCamera;
     private AudioSource stepSound;
     private Animator animator;
@@ -42,14 +43,18 @@ public class PlayerMotion : MonoBehaviour
         motion = transform.TransformDirection(motion); //Now motion is in Global coordiantes
         controller.Move(motion); //must receive Vector3 in Global coordinates
         // Motion sound
-        if (dz < -0.1 || dz > 0.1 || dx < -0.1 || dx > 0.1)
+        if (dz < -0.03 || dz > 0.03 || dx < -0.03 || dx > 0.03)
         {
             if (!stepSound.isPlaying)
+            {
                 stepSound.Play();
+            }
+            animator.SetInteger("state", 1); //walking state
         }
-//        if (Input.GetKeyDown(KeyCode.W))
-//            animator.SetInteger("state", 1);
-//         else
- //           animator.SetInteger("state", 0);
+        else
+        {
+            animator.SetInteger("state", 0); //Idle stat
+        }
+
     }
 }

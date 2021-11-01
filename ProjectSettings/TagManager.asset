@@ -3,7 +3,12 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Fluid
+  - Blue Team
+  - Red Team
+  - Wall
+  - Bullet
   layers:
   - Default
   - TransparentFX
