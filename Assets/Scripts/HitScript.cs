@@ -10,13 +10,14 @@ public class HitScript : MonoBehaviour
     private string myTeam;
     private int hitCount;
     private bool canGetHit = true;
-    private int hitcount;
+    public bool isAlive;
     // Start is called before the first frame update
     void Start()
     {
         animator = this.GetComponent<Animator>();
         this.myTeam = this.gameObject.tag;
-        this.hitCount = 3;
+        this.hitCount = 2;
+        isAlive = true;
     }
     public IEnumerator shootBullet(GameObject bulletClone)
     {
@@ -54,7 +55,5 @@ public class HitScript : MonoBehaviour
             animator.SetInteger("state", 3);
         }
         print("Hitcount = " + hitCount + "");
-
-
     }
 }

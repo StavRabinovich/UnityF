@@ -17,6 +17,8 @@ public class Shooting : MonoBehaviour
     private string myTeam;
     private int hitCount;
     public float bulletImpulse = 100f;
+    public static bool mainCIsalive;
+    public static bool EnemyOneIsAlive;
     // Start is called before the first frame update
     void Start()
     {
@@ -24,6 +26,8 @@ public class Shooting : MonoBehaviour
         animator = npc.GetComponent<Animator>();
         hitCount = 0;
         this.myTeam = this.gameObject.tag;
+        mainCIsalive = true;
+        EnemyOneIsAlive = true;
     }
 
     IEnumerator ShowFlash(){
@@ -79,11 +83,12 @@ public class Shooting : MonoBehaviour
     private void OnTriggerEnter(Collider other)
     {
         GameObject target = other.gameObject;
-        if(other.gameObject.tag.Equals("Bullet"))
+        if(other.gameObject.tag.Equals("Bullet") || other.gameObject.tag.Equals("granade"))
         {
             animator.SetInteger("state", 2);
             print("hit");
         }
+
     }
 
 }

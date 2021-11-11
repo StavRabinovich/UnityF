@@ -9,6 +9,8 @@ TagManager:
   - Red Team
   - Wall
   - Bullet
+  - grenade
+  - FloorGun
   layers:
   - Default
   - TransparentFX
