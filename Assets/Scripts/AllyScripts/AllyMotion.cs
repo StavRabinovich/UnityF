@@ -10,12 +10,12 @@ public class AllyMotion : MonoBehaviour
     private string myTeam;
     private int hitCount;
     private bool canGetHit = true;
-
     public bool isAlive;
-
-
+    public GameObject endScreen;
+    public QuitGame endScript;
     void Start()
     {
+        endScreen = GameObject.Find("EndGame");
         animator = GetComponent<Animator>();
         this.myTeam = this.gameObject.tag;
         this.hitCount = 2;
@@ -43,7 +43,7 @@ public class AllyMotion : MonoBehaviour
             animator.SetInteger("state", 2);
             print("hit");
             StartCoroutine(getHit());
-            hitCount--;
+            hitCount = hitCount - 1;
             canGetHit = true;
         }
     }
@@ -61,8 +61,11 @@ public class AllyMotion : MonoBehaviour
             animator.SetInteger("state", 3);
             isAlive = false;
             print("dead");
+            //endScreen.SetActive(true);
+            //endScript.enemyAlive = false;
+            //endScreen.SetActive(true);
+            //GameObject.Find("EndGame").GetComponent<QuitGame>().enemyAlive = false;
         }
-        print("Hitcount = " + hitCount + "");
     }
 
     public override int GetHashCode()

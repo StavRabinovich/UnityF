@@ -24,7 +24,7 @@ public class Shooting : MonoBehaviour
     {
         lineR = GetComponent<LineRenderer>();
         animator = npc.GetComponent<Animator>();
-        hitCount = 0;
+        //hitCount = 0;
         this.myTeam = this.gameObject.tag;
         mainCIsalive = true;
         EnemyOneIsAlive = true;
@@ -88,7 +88,6 @@ public class Shooting : MonoBehaviour
             animator.SetInteger("state", 2);
             print("hit");
         }
-
     }
 
 }

@@ -47,6 +47,5 @@ public class throwGrenade : MonoBehaviour
     {
         yield return new WaitForSeconds(3);
         grenade.SetActive(false);
-
     }
 }
