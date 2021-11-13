@@ -11,12 +11,12 @@ public class QuitGame : MonoBehaviour
     void Start()
     {
         enemyAlive = true;
-        //this.endScreen = GameObject.Find("EndGame");
     }
 
     // Update is called once per frame
     void Update()
     {
+        print("Enemy : " + enemyAlive);
         if (enemyAlive == false)
         {
             endScreen.SetActive(true);

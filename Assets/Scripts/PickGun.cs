@@ -9,7 +9,7 @@ public class PickGun : MonoBehaviour
     //public GameObject FloorGun;
     public GameObject GunInHand;
     public GameObject mCamera;
-     public TextMeshProUGUI txtGun;
+    public TextMeshProUGUI txtGun;
     private bool notTaken;
 
     // Start is called before the first frame update
@@ -36,7 +36,7 @@ public class PickGun : MonoBehaviour
         {
             if (hit.transform.gameObject.tag == "FloorGun") // The view is focused on GunInDrawer
             {
-                txtGun.text = "Press [E] to TAKE the gun";
+                //txtGun.text = "Press [E] to TAKE the gun";
                 if(Input.GetKeyDown(KeyCode.E))
                 {
                     notTaken = false;
@@ -45,10 +45,10 @@ public class PickGun : MonoBehaviour
                     GunInHand.gameObject.SetActive(true);
                 } 
             }
-            else
+            /*else
             {
                 txtGun.text = "No Gun";
-            } 
+            } */
         }
         
     }

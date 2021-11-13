@@ -1,6 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
+using TMPro;
 
 public class AllyMotion : MonoBehaviour
 {
@@ -13,6 +15,9 @@ public class AllyMotion : MonoBehaviour
     public bool isAlive;
     public GameObject endScreen;
     public QuitGame endScript;
+    public GameObject finishPnl;
+    public TextMeshProUGUI txtVictory;
+
     void Start()
     {
         endScreen = GameObject.Find("EndGame");
@@ -61,10 +66,12 @@ public class AllyMotion : MonoBehaviour
             animator.SetInteger("state", 3);
             isAlive = false;
             print("dead");
-            //endScreen.SetActive(true);
+            txtVictory.text = "Red Victory!";
+            //finishPnl.SetActive(true);
             //endScript.enemyAlive = false;
-            //endScreen.SetActive(true);
-            //GameObject.Find("EndGame").GetComponent<QuitGame>().enemyAlive = false;
+            finishPnl.GetComponent<QuitGame>().enemyAlive = false;
+            //endScreen.GameObject.SetActive(true);
+            //finishPnl.GetComponent<QuitGame>().enemyAlive = false;
         }
     }
 
