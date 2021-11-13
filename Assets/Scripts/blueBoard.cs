@@ -26,7 +26,7 @@ public class BlueBoard : MonoBehaviour
     }
 
 
-    private void DeadMember()
+    void DeadMember()
     {
         --countAlive;
         aliveText.text = "Alive: \t\t\t" + countAlive;

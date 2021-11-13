@@ -9,16 +9,16 @@ public class throwGrenade : MonoBehaviour
     public GameObject grenade;
     public GameObject handGrenade;
     public GameObject explodsion;
-    SphereCollider s_collider;
+    // SphereCollider s_collider;
     private bool notTaken;
     public TextMeshProUGUI txtGrenade;
 
-    float s_radious;
+    // float s_radious;
     // Start is called before the first frame update
     void Start()
     {
-        s_collider = GetComponent<SphereCollider>();
-        s_radious = 2;
+        // s_collider = GetComponent<SphereCollider>();
+        // s_radious = 2;
         notTaken = true;
     }
 
@@ -61,7 +61,7 @@ public class throwGrenade : MonoBehaviour
                 z = transform.forward.z * 10;
                 Rigidbody rb = handGrenade.GetComponent<Rigidbody>(); // Assumption grenade as RGC
                 rb.AddForce(x, y, z, ForceMode.Impulse);
-                rb.useGravity = true;
+                // rb.useGravity = true;
                 StartCoroutine(Explode(dpGrenade));
                 StartCoroutine(disableGrenade(dpGrenade));
             }
@@ -74,8 +74,8 @@ public class throwGrenade : MonoBehaviour
         AudioSource sound = grnd.GetComponent<AudioSource>();
         sound.Play();
         explodsion.transform.position = grnd.transform.position;
-        grnd.tag = "granade";
-        s_collider.radius = s_radious;
+        grnd.tag = "grenade";
+        // s_collider.radius = s_radious;
         explodsion.SetActive(true);
     }
 

@@ -105,7 +105,6 @@ GameObject:
   m_Component:
   - component: {fileID: 5026939248443893211}
   - component: {fileID: 5026939248443893210}
-  - component: {fileID: 5026939248443893212}
   - component: {fileID: 5026939248443893213}
   m_Layer: 0
   m_Name: Grenade
@@ -147,19 +146,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!135 &5026939248443893212
-SphereCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5026939248443893209}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Radius: 2
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!82 &5026939248443893213
 AudioSource:
   m_ObjectHideFlags: 0
@@ -171,7 +157,7 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 4f1ad1a2a4d33484db06895ac4295c80, type: 3}
-  m_PlayOnAwake: 1
+  m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
   Loop: 0
@@ -408,6 +394,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 28d68317de2270f45bf4093e6b2a53eb, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 19800000, guid: 28d68317de2270f45bf4093e6b2a53eb, type: 3}
+      propertyPath: looping
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
