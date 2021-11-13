@@ -13,8 +13,7 @@ public class Shooting : MonoBehaviour
     public AudioSource fireSound;
     public GameObject npc;
     private Animator animator;
-    private string otherTeam;
-    private string myTeam;
+    private string otherTeam, myTeam;
     private int hitCount;
     public float bulletImpulse = 100f;
     public static bool mainCIsalive;
