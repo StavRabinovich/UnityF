@@ -60,11 +60,11 @@ public class Shooting : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if((Input.GetKeyDown(KeyCode.Space))&&(gun.active))
+        if((Input.GetKeyDown(KeyCode.Space)))
         {
             RaycastHit hit;
             // If the object before me is not in my team, There will be a hit, else only sound
-            if (Physics.Raycast(mCamera.transform.position, mCamera.transform.forward, out hit) && !hit.transform.tag.Equals(this.myTeam))
+            if (Physics.Raycast(mCamera.transform.position, mCamera.transform.forward, out hit))
             {
                 GameObject bulletClone = Instantiate(this.target, hit.transform.position, transform.rotation);
                 bulletClone.transform.position = hit.point;

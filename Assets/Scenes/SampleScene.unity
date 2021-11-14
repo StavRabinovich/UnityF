@@ -17993,7 +17993,7 @@ CapsuleCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 1
   m_Enabled: 1
-  m_Radius: 0.5
+  m_Radius: 1
   m_Height: 2.001
   m_Direction: 1
   m_Center: {x: 0, y: 0.81, z: 0}
@@ -23171,7 +23171,7 @@ MeshCollider:
   m_GameObject: {fileID: 1905268981}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 4
   m_Convex: 0
   m_CookingOptions: 30
@@ -23186,7 +23186,7 @@ CapsuleCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 1
   m_Enabled: 1
-  m_Radius: 0.5
+  m_Radius: 1
   m_Height: 2.001
   m_Direction: 1
   m_Center: {x: 0, y: 0.81, z: 0}
@@ -24939,7 +24939,7 @@ PrefabInstance:
       objectReference: {fileID: 2061123000}
     - target: {fileID: 661801517893897891, guid: 652930fb9cc742d44bb3b71390291f8a, type: 3}
       propertyPath: m_Enabled
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 661801517893897896, guid: 652930fb9cc742d44bb3b71390291f8a, type: 3}
       propertyPath: m_IsTrigger
@@ -25083,7 +25083,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3378874194154515331, guid: 652930fb9cc742d44bb3b71390291f8a, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3379786939927143811, guid: 652930fb9cc742d44bb3b71390291f8a, type: 3}
       propertyPath: m_IsActive
