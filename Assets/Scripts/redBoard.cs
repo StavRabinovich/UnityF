@@ -16,10 +16,6 @@ public class redBoard : MonoBehaviour
     public static int countGuns;
     public static int countGranades;
 
-
-
-
-
     // Start is called before the first frame update
     void Start()
     {
