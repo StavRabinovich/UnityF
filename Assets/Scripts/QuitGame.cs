@@ -16,11 +16,10 @@ public class QuitGame : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        print("Enemy : " + enemyAlive);
+        ///print("Enemy : " + enemyAlive);
         if (enemyAlive == false)
         {
             endScreen.SetActive(true);
-            print("blabla");
         }
     }
     public void OnQuitPressed()
